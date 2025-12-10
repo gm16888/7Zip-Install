@@ -47,3 +47,4 @@ Start-Process "msiexec.exe" -ArgumentList "/i `"$installerPath`" /qn /norestart"
 # Step 6: Clean up
 Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
 Write-Host "7-Zip $latest installed successfully."
+
